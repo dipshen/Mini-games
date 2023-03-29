@@ -10,6 +10,15 @@ $(document).ready(function(){
 		 $(".hint1_1").addClass("none");
 		 $(".blur").addClass("none");
 	});
+	$(".b1").click(function() {
+		 $(".b1").addClass("none");
+	});
+	$(".b2").click(function() {
+		 $(".b2").addClass("none");
+	});
+	$(".b3").click(function() {
+		 $(".b3").addClass("none");
+	});
 	// ВТОРАЯ ИНРА
 	$(".fish1").click(function() {
  		 $(".main").addClass("none");
