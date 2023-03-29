@@ -10,24 +10,15 @@ $(document).ready(function(){
 		 $(".hint1_1").addClass("none");
 		 $(".blur").addClass("none");
 	});
-	let s=0;
 	$(".b1").click(function() {
 		 $(".b1").addClass("none");
-		 s+=1;
 	});
 	$(".b2").click(function() {
 		 $(".b2").addClass("none");
-		 s+=1;
 	});
 	$(".b3").click(function() {
 		 $(".b3").addClass("none");
-		 s+=1;
 	});
-	if (s==3) {
-		$(".blur").removeClass("none");
-		$(".hint1_1").removeClass("none");
-		});
-	}
 	// ВТОРАЯ ИНРА
 	$(".fish1").click(function() {
  		 $(".main").addClass("none");
