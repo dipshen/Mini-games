@@ -246,6 +246,122 @@ img {
   left: 75vw;
 }
 /* Небольшие */
+.bubbles img:nth-of-type(12) {
+  top: 6vh;
+  left: 2vw;
+}
+.bubbles img:nth-of-type(13) {
+  top: 3vh;
+  left: 12vw;
+}
+.bubbles img:nth-of-type(14) {
+  top: 0vh;
+  left: 23vw;
+}
+.bubbles img:nth-of-type(15) {
+  top: 3vh;
+  left: 50vw;
+}
+.bubbles img:nth-of-type(16) {
+  top: 2vh;
+  left: 76vw;
+}
+.bubbles img:nth-of-type(17) {
+  top: 8vh;
+  left: 90vw;
+}
+.bubbles img:nth-of-type(18) {
+  top: 14vh;
+  left: 84vw;
+}
+.bubbles img:nth-of-type(19) {
+  top: 24vh;
+  left: 3vw;
+}
+.bubbles img:nth-of-type(20) {
+  top: 29vh;
+  left: 10vw;
+}
+.bubbles img:nth-of-type(21) {
+  top: 22vh;
+  left: 28vw;
+}
+.bubbles img:nth-of-type(22) {
+  top: 15vh;
+  left: 44vw;
+}
+.bubbles img:nth-of-type(23) {
+  top: 27vh;
+  left: 35vw;
+}
+.bubbles img:nth-of-type(24) {
+  top: 42vh;
+  left: 1vw;
+}
+.bubbles img:nth-of-type(25) {
+  top: 40vh;
+  left: 35vw;
+}
+.bubbles img:nth-of-type(26) {
+  top: 6vh;
+  left: 2vw;
+}
+.bubbles img:nth-of-type(27) {
+  top: 39vh;
+  left: 57vw;
+}
+.bubbles img:nth-of-type(28) {
+  top: 51vh;
+  left: 51vw;
+}
+.bubbles img:nth-of-type(29) {
+  top: 35vh;
+  left: 74vw;
+}
+.bubbles img:nth-of-type(30) {
+  top: 46vh;
+  left: 76vw;
+}
+.bubbles img:nth-of-type(31) {
+  top: 52vh;
+  left: 89vw;
+}
+.bubbles img:nth-of-type(32) {
+  top: 76vh;
+  left: 19vw;
+}
+.bubbles img:nth-of-type(33) {
+  top: 88vh;
+  left: 12vw;
+}
+.bubbles img:nth-of-type(34) {
+  top: 79vh;
+  left: 43vw;
+}
+.bubbles img:nth-of-type(35) {
+  top: 89vh;
+  left: 39vw;
+}
+.bubbles img:nth-of-type(36) {
+  top: 52vh;
+  left: 68vw;
+}
+.bubbles img:nth-of-type(37) {
+  top: 84vh;
+  left: 71vw;
+}
+.bubbles img:nth-of-type(38) {
+  top: 82vh;
+  left: 80vw;
+}
+.bubbles img:nth-of-type(39) {
+  top: 73vh;
+  left: 89vw;
+}
+.bubbles img:nth-of-type(40) {
+  top: 87vh;
+  left: 93vw;
+}
 
 
 /* Маленькие */
@@ -272,6 +388,18 @@ img {
 .second img:nth-of-type(5) {
   top: 38vh;
   left: 15vw;
+}
+.second img:nth-of-type(6) {
+  top: 13.3vh;
+  left: 82.5vw;
+}
+.second img:nth-of-type(7) {
+  top: 36.4vh;
+  left: 82.5vw;
+}
+.second img:nth-of-type(8) {
+  top: 58.8vh;
+  left: 82.5vw;
 }
 .fish3 img:nth-of-type(1) {
   top: 0vh;
