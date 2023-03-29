@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// ПЕРВАЯ ИГРА
 	$(".kit1").click(function() {
  		 $(".main").addClass("none");
 		 $(".first").removeClass("none");
@@ -9,6 +10,7 @@ $(document).ready(function(){
 		 $(".hint1_1").addClass("none");
 		 $(".blur").addClass("none");
 	});
+	// ВТОРАЯ ИНРА
 	$(".fish1").click(function() {
  		 $(".main").addClass("none");
 		 $(".second").removeClass("none")
@@ -23,6 +25,7 @@ $(document).ready(function(){
 		 $(".bottom1").addClass("none");
 		 $(".bottom2").removeClass("none");
 	});
+	// ТРЕТЬЯ ИГРА
 	$(".fish2").click(function() {
  		 $(".main").addClass("none");
 		 $(".third").removeClass("none")
