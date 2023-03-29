@@ -1,56 +1,214 @@
 body{
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-color: #F5F5F5;
 }
 h1 {
+  position: absolute;
   font-size: 32px;
-  color: #1B79E2;
+  font-family: 'Croogla 4F';
+}
+p {
+  position: absolute;
+  font-size: 40px;
   font-family: 'Croogla 4F';
 }
 div{
   position: absolute;
 }
+img {
+  position: absolute;
+}
+img:nth-of-type(1) {
+  opacity: 50%;
+}
+
+/* КИТ */
+
 .kit1{
-  top: 20vw;
-  left: -38vw;
-  animation: a1 6s linear infinite;
+  top: 5vh;
+  left: -50vw;
+  animation: a1 9s linear infinite;
 }
 .a1:hover {
   animation-play-state: paused;
 }
 @keyframes a1 {
-  0% {left: -38vw; top: 20vw;}
-  25% {left: 0vw; top: 15vw;}
-  50% {left: 40vw; top: 20vw;}
-  75% {left: 80vw; top: 15vw;}
-  100% {left: 2500px; top: 15vw;}
+  0% {left: -50vw; top: 5vh;}
+  25% {left: 0vw; top: 20vh;}
+  50% {left: 40vw; top: 0vh;}
+  75% {left: 80vw; top: 15vh;}
+  100% {left: 120vw; top: 15vh;}
 }
+.kit1 img{
+  top: 0;
+  left: 0;
+  /* width: 37vw;
+  height: 30vh; */
+}
+.kit1 h1{
+  top:223px;
+  left: 376px;
+  transform: rotate(-2deg);
+  color: #1B79E2;
+}
+.h1_1 {
+  display: none;
+}
+.kit1:hover .h1_1 {
+  display: block;
+}
+
+/* РЫБА 1 */
+
 .fish1{
-  top: 40vw;
-  left: -30vw;
-  animation: a2 5.5s linear infinite;
+  top: 60vh
+  left: -50vw;
+  animation: a2 6s linear infinite;
 }
 .a2:hover {
   animation-play-state: paused;
 }
 @keyframes a2 {
-  0% {left: -30vw; top: 40vw;}
-  25% {left: 0vw; top: 50vw;}
-  50% {left: 50vw; top: 40vw;}
-  75% {left: 90vw; top: 60vw;}
+  0% {left: -50vw; top: 60vh; opacity: 100%}
+  25% {left: 2vw; top: 30vh;}
+  50% {left: 50vw; top: 60vh;}
+  75% {left: 97vw; top: 50vh; opacity: 100%}
+  100% {left: 110vw; top: 70vh; opacity: 0%}
 }
+.fish1 img{
+  top: 0;
+  left: 0;
+}
+.fish1 h1{
+  top: -11px;
+  left: 32px;
+  transform: rotate(12deg);
+  color: #2C884C;
+}
+.h1_2 {
+  display: none;
+}
+.fish1:hover .h1_2 {
+  display: block;
+}
+
+/* РЫБА 2 */
+
 .fish2{
-  top: 20vw;
-  left: -38vw;
-  animation: a3 6s linear infinite;
+  top: 60vh;
+  left: 110vw;
+  animation: a3 5s linear infinite;
 }
 .a3:hover {
   animation-play-state: paused;
 }
 @keyframes a3 {
-  0% {left: -38vw; top: 20vw;}
-  25% {left: 0vw; top: 15vw;}
-  50% {left: 40vw; top: 20vw;}
-  75% {left: 80vw; top: 15vw;}
+  0% {left: 110vw; top: 70vh; opacity: 100%}
+  25% {left: 70vw; top: 40vh;}
+  50% {left: 40vw; top: 60vh;}
+  75% {left: 00vw; top: 30vh; opacity: 100%}
+  100% {left: -30vw; top: 50vh; opacity: 0%}
+}
+.fish2 img{
+  top: 0;
+  left: 0;
+}
+.fish2 h1{
+  top: 72px;
+  left: 12px;
+  transform: rotate(2deg);
+  color: #FFD000;
+}
+.h1_3 {
+  display: none;
+}
+.fish2:hover .h1_3 {
+  display: block;
+}
+.none {
+  display: none;
+}
+
+/* ИГРЫ */
+
+.blur{
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(245, 245, 245, 0.5);
+  backdrop-filter: blur(12px);
+}
+
+/* ПЕРВАЯ ИГРА */
+
+.mir img:nth-of-type(1) {
+  top: 4vw;
+  left: -37vh;
+}
+.mir img:nth-of-type(2) {
+  top: 51vh;
+  left: 64vw;
+}
+.mir img:nth-of-type(3) {
+  top: 5vh;
+  left: 4vw;
+}
+.mir img:nth-of-type(4) {
+  top: 11vh;
+  left: 13vw;
+}
+.mir img:nth-of-type(5) {
+  top: 5vh;
+  left: 31vw;
+}
+.mir img:nth-of-type(6) {
+  top: 6vh;
+  left: 55vw;
+}
+.mir img:nth-of-type(7) {
+  top: 11vh;
+  left: 88vw;
+}
+.mir img:nth-of-type(8) {
+  top: 30vh;
+  left: 73vw;
+}
+.mir img:nth-of-type(9) {
+  top: 60vh;
+  left: 9vw;
+}
+.mir img:nth-of-type(10) {
+  top: 68vh;
+  left: 2vw;
+}
+.mir img:nth-of-type(11) {
+  top: 79vh;
+  left: 45vw;
+}
+.mir img:nth-of-type(12) {
+  top: 89vh;
+  left: 57vw;
+}
+.mir img:nth-of-type(13) {
+  top: 88vh;
+  left: 87vw;
+}
+.hint1_1 {
+  left: 32vw;
+  top: 33vh;
+  background-color: #F5F5F5;
+  width: 35vw;
+  height: 26vh;
+  border: 10px solid #1B79E2;
+}
+.hint1_1 p {
+  color: #1B79E2;
+  top: 9vh;
+  left: 5vw;
+}
+.hint1_1 img {
+  top: 2.4vh;
+  left: 32.7vw;
 }
