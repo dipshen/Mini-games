@@ -19,9 +19,9 @@ div{
 img {
   position: absolute;
 }
-/* img:nth-of-type(1) {
+img:nth-of-type(1) {
   opacity: 50%;
-} */
+}
 
 /* КИТ */
 
@@ -247,8 +247,8 @@ img {
 }
 /* Небольшие */
 .bubbles img:nth-of-type(12) {
-  top: 6vh;
-  left: 2vw;
+  top: 87vh;
+  left: 93vw;
 }
 .bubbles img:nth-of-type(13) {
   top: 3vh;
@@ -358,10 +358,6 @@ img {
   top: 73vh;
   left: 89vw;
 }
-.bubbles img:nth-of-type(40) {
-  top: 87vh;
-  left: 93vw;
-}
 
 
 /* Маленькие */
@@ -446,6 +442,26 @@ img {
   left: 32.8vw;
 }
 
+.hint1_2 {
+  left: 32vw;
+  top: 31.5vh;
+  background-color: #F5F5F5;
+  width: 35vw;
+  height: 26vh;
+  border: 10px solid #1B79E2;
+}
+.hint1_2 p {
+  color: #1B79E2;
+  top: 9vh;
+  left: 5vw;
+}
+.hint1_2 img {
+  top: 1.4vh;
+  left: 32.8vw;
+}
+
+
+
 .hint2_1 {
   left: 27.4vw;
   top: 31.5vh;
@@ -463,6 +479,8 @@ img {
   top: 1.4vh;
   left: 42.9vw;
 }
+
+
 
 .hint3_1 {
   left: 30vw;

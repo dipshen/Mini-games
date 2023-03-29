@@ -19,6 +19,66 @@ $(document).ready(function(){
 	$(".b3").click(function() {
 		 $(".b3").addClass("none");
 	});
+	$(".b4").click(function() {
+		 $(".b4").addClass("none");
+	});
+	$(".b5").click(function() {
+		 $(".b5").addClass("none");
+	});
+	$(".b6").click(function() {
+		 $(".b6").addClass("none");
+	});
+	$(".b7").click(function() {
+		 $(".b7").addClass("none");
+	});
+	$(".b8").click(function() {
+		 $(".b8").addClass("none");
+	});
+	$(".b9").click(function() {
+		 $(".b9").addClass("none");
+	});
+	$(".b10").click(function() {
+		 $(".b10").addClass("none");
+	});
+	$(".b11").click(function() {
+		 $(".b11").addClass("none");
+	});
+	$(".b12").click(function() {
+		 $(".b12").addClass("none");
+	});
+	$(".b13").click(function() {
+		 $(".b13").addClass("none");
+	});
+	$(".b14").click(function() {
+		 $(".b14").addClass("none");
+	});
+	$(".b15").click(function() {
+		 $(".b15").addClass("none");
+	});
+	$(".b16").click(function() {
+		 $(".b16").addClass("none");
+	});
+	$(".b17").click(function() {
+		 $(".b17").addClass("none");
+	});
+	$(".b18").click(function() {
+		 $(".b18").addClass("none");
+	});
+	$(".b19").click(function() {
+		 $(".b19").addClass("none");
+	});
+	$(".b20").click(function() {
+		 $(".b20").addClass("none");
+	});
+
+	if ($(".b1").hasClass("none") && $(".b2").hasClass("none")) {
+			$(".blur").removeClass("none");
+			$(".hint1_2").removeClass("none");
+	};
+	// if ($('.b1, .b2, .b3').hasClass('none').length === 3) {
+  // 	$('.blur').removeClass('none');
+	// };
+
 	// ВТОРАЯ ИНРА
 	$(".fish1").click(function() {
  		 $(".main").addClass("none");
