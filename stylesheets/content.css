@@ -19,9 +19,9 @@ div{
 img {
   position: absolute;
 }
-img:nth-of-type(1) {
+/* img:nth-of-type(1) {
   opacity: 50%;
-}
+} */
 
 /* КИТ */
 
@@ -143,6 +143,7 @@ img:nth-of-type(1) {
 
 /* ПЕРВАЯ ИГРА */
 
+/* Морские штуки */
 .mir img:nth-of-type(1) {
   top: 4vw;
   left: -37vh;
@@ -195,9 +196,113 @@ img:nth-of-type(1) {
   top: 88vh;
   left: 87vw;
 }
+
+/* Пузыри */
+
+/* Большие */
+.bubbles img:nth-of-type(1) {
+  top: 34vh;
+  left: 13vw;
+}
+.bubbles img:nth-of-type(2) {
+  top: 0vh;
+  left: 55vw;
+}
+.bubbles img:nth-of-type(3) {
+  top: 59vh;
+  left: 49vw;
+}
+/* Средние */
+.bubbles img:nth-of-type(4) {
+  top: 10vh;
+  left: 15vw;
+}
+.bubbles img:nth-of-type(5) {
+  top: 0vh;
+  left: 30vw;
+}
+.bubbles img:nth-of-type(6) {
+  top: 27vh;
+  left: 43vw;
+}
+.bubbles img:nth-of-type(7) {
+  top: 28vh;
+  left: 82vw;
+}
+.bubbles img:nth-of-type(8) {
+  top: 52vh;
+  left: 37vw;
+}
+.bubbles img:nth-of-type(9) {
+  top: 65vh;
+  left: 1vw;
+}
+.bubbles img:nth-of-type(10) {
+  top: 71vh;
+  left: 27vw;
+}
+.bubbles img:nth-of-type(11) {
+  top: 57vh;
+  left: 75vw;
+}
+/* Небольшие */
+
+
+/* Маленькие */
+
+
+
+/* ВТОРАЯ ИГРА */
+.second img:nth-of-type(1) {
+  top: 13vh;
+  left: 22vw;
+}
+.second img:nth-of-type(2) {
+  top: 40vh;
+  left: 22vw;
+}
+.second img:nth-of-type(3) {
+  top: 64vh;
+  left: 22vw;
+}
+.second img:nth-of-type(4) {
+  top: 16vh;
+  left: 13vw;
+}
+.second img:nth-of-type(5) {
+  top: 38vh;
+  left: 15vw;
+}
+.fish3 img:nth-of-type(1) {
+  top: 0vh;
+  left: 0vw;
+}
+.fish3 {
+  top: 65vh;
+  left: 13vw;
+}
+.bottom1 p{
+  font-size: 50px;
+  color: #2C884C;
+}
+.bottom2 p{
+  font-size: 50px;
+  color: #2C884C;
+}
+.bottom1 {
+  top: 81vh;
+  left: 76vw;
+}
+.bottom2 {
+  top: 81vh;
+  left: 76.5vw;
+}
+
+/* ПОДСКАЗКИ */
+
 .hint1_1 {
   left: 32vw;
-  top: 33vh;
+  top: 31.5vh;
   background-color: #F5F5F5;
   width: 35vw;
   height: 26vh;
@@ -209,6 +314,47 @@ img:nth-of-type(1) {
   left: 5vw;
 }
 .hint1_1 img {
-  top: 2.4vh;
-  left: 32.7vw;
+  top: 1.4vh;
+  left: 32.8vw;
 }
+
+.hint2_1 {
+  left: 27.4vw;
+  top: 31.5vh;
+  background-color: #F5F5F5;
+  width: 45vw;
+  height: 26vh;
+  border: 10px solid #2C884C;
+}
+.hint2_1 p {
+  color: #2C884C;
+  top: 9vh;
+  left: 5vw;
+}
+.hint2_1 img {
+  top: 1.4vh;
+  left: 42.9vw;
+}
+
+.hint3_1 {
+  left: 30vw;
+  top: 31.5vh;
+  background-color: #F5F5F5;
+  width: 40vw;
+  height: 26vh;
+  border: 10px solid #FFD000;
+}
+.hint3_1 p {
+  color: #FFD000;
+  top: 9vh;
+  left: 5vw;
+}
+.hint3_1 img {
+  top: 1.4vh;
+  left: 37.9vw;
+}
+
+
+
+
+/
