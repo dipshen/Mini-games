@@ -721,35 +721,52 @@ img {
 
 /* ВТОРАЯ ИГРА */
 .second img:nth-of-type(1) {
-  top: 13vw;
+  top: 7vw;
   left: 22vw;
 }
 .second img:nth-of-type(2) {
-  top: 40vw;
+  top: 22vw;
   left: 22vw;
 }
 .second img:nth-of-type(3) {
-  top: 64vw;
+  top: 36vw;
   left: 22vw;
 }
 .second img:nth-of-type(4) {
-  top: 16vw;
+  top: 9vw;
   left: 13vw;
+  /* animation: s1 15s linear; */
+}
+.sa1 {
+  animation-name: ssa1;
+  animation-duration: 5s;
+}
+@keyframes ssa1 {
+0% {left: 9vw; top: 13vw;}
+15% {left: 29vw; top: 13vw;}
+20% {left: 29vw; top: 4vw; transform: rotate(-80deg);}
+31% {left: 39vw; top: 4vw; transform: rotate(0deg);}
+45% {left: 39vw; top: 12vw; transform: rotate(100deg);}
+50% {left: 50vw; top: 12vw; transform: rotate(0deg);}
+60% {left: 50vw; top: 6vw; transform: rotate(-80deg);}
+70% {left: 63vw; top: 6vw; transform: rotate(0deg);}
+85% {left: 63vw; top: 9vw; transform: rotate(100deg);}
+100% {left: 83vw; top: 13vw; transform: rotate(0deg);}
 }
 .second img:nth-of-type(5) {
-  top: 38vw;
+  top: 21vw;
   left: 15vw;
 }
 .second img:nth-of-type(6) {
-  top: 13.3vw;
+  top: 7.1vw;
   left: 82.5vw;
 }
 .second img:nth-of-type(7) {
-  top: 36.4vw;
+  top: 20.1vw;
   left: 82.5vw;
 }
 .second img:nth-of-type(8) {
-  top: 58.8vw;
+  top: 33.1vw;
   left: 82.5vw;
 }
 .fish3 img:nth-of-type(1) {
@@ -757,7 +774,7 @@ img {
   left: 0vw;
 }
 .fish3 {
-  top: 65vw;
+  top: 36vw;
   left: 13vw;
 }
 .bottom1 p{
@@ -769,11 +786,11 @@ img {
   color: #2C884C;
 }
 .bottom1 {
-  top: 81vw;
+  top: 46vw;
   left: 76vw;
 }
 .bottom2 {
-  top: 81vw;
+  top: 46vw;
   left: 76.5vw;
 }
 
@@ -818,20 +835,20 @@ img {
 
 
 .hint2_1 {
-  left: 27.4vw;
-  top: 31.5vw;
+  left: 27.5vw;
+  top: 19.8vw;
   background-color: #F5F5F5;
   width: 45vw;
-  height: 26vw;
+  height: 15vw;
   border: 10px solid #2C884C;
 }
 .hint2_1 p {
   color: #2C884C;
-  top: 9vw;
-  left: 5vw;
+  top: 5vw;
+  left: 3.5vw;
 }
 .hint2_1 img {
-  top: 1.4vw;
+  top: 1.1vw;
   left: 42.9vw;
 }
 
@@ -839,20 +856,20 @@ img {
 
 .hint3_1 {
   left: 30vw;
-  top: 31.5vw;
+  top: 19.8vw;
   background-color: #F5F5F5;
   width: 40vw;
-  height: 26vw;
+  height: 15vw;
   border: 10px solid #FFD000;
 }
 .hint3_1 p {
   color: #FFD000;
-  top: 9vw;
-  left: 5vw;
+  top: 5vw;
+  left: 3.8vw;
 }
 .hint3_1 img {
-  top: 1.4vw;
-  left: 37.9vw;
+  top: 1.1vw;
+  left: 37.8vw;
 }
 
 

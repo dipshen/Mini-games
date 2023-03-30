@@ -258,64 +258,78 @@ $(document).ready(function(){
 	});
 	setInterval(function(){
 		if ($(".b1").hasClass("none") && $(".b2").hasClass("none") && $(".b3").hasClass("none")
-		// && $(".b4").hasClass("none") && $(".b5").hasClass("none") && $(".b6").hasClass("none")
-		// && $(".b7").hasClass("none") && $(".b8").hasClass("none") && $(".b9").hasClass("none")
-		// && $(".b10").hasClass("none") && $(".b11").hasClass("none") && $(".b12").hasClass("none")
-		// && $(".b13").hasClass("none") && $(".b14").hasClass("none") && $(".b15").hasClass("none")
-		// && $(".b16").hasClass("none") && $(".b17").hasClass("none") && $(".b18").hasClass("none")
-		// && $(".b19").hasClass("none") && $(".b20").hasClass("none") && $(".b21").hasClass("none")
-		// && $(".b22").hasClass("none") && $(".b23").hasClass("none") && $(".b24").hasClass("none")
-		// && $(".b25").hasClass("none") && $(".b26").hasClass("none") && $(".b27").hasClass("none")
-		// && $(".b28").hasClass("none") && $(".b29").hasClass("none") && $(".b30").hasClass("none")
-		// && $(".b31").hasClass("none") && $(".b32").hasClass("none") && $(".b33").hasClass("none")
-		// && $(".b34").hasClass("none") && $(".b35").hasClass("none") && $(".b36").hasClass("none")
-		// && $(".b37").hasClass("none") && $(".b38").hasClass("none") && $(".b39").hasClass("none")
-		// && $(".b40").hasClass("none") && $(".b41").hasClass("none") && $(".b42").hasClass("none")
-		// && $(".b43").hasClass("none") && $(".b44").hasClass("none") && $(".b45").hasClass("none")
-		// && $(".b46").hasClass("none") && $(".b47").hasClass("none") && $(".b48").hasClass("none")
-		// && $(".b49").hasClass("none") && $(".b50").hasClass("none") && $(".b51").hasClass("none")
-		// && $(".b51").hasClass("none") && $(".b52").hasClass("none") && $(".b53").hasClass("none")
-		// && $(".b54").hasClass("none") && $(".b55").hasClass("none") && $(".b56").hasClass("none")
-		// && $(".b57").hasClass("none") && $(".b58").hasClass("none") && $(".b59").hasClass("none")
-		// && $(".b60").hasClass("none") && $(".b61").hasClass("none") && $(".b62").hasClass("none")
-		// && $(".b63").hasClass("none") && $(".b64").hasClass("none") && $(".b65").hasClass("none")
-		// && $(".b66").hasClass("none") && $(".b67").hasClass("none") && $(".b68").hasClass("none")
-		// && $(".b69").hasClass("none") && $(".b70").hasClass("none") && $(".b71").hasClass("none")
-		// && $(".b72").hasClass("none") && $(".b73").hasClass("none") && $(".b74").hasClass("none")
-		// && $(".b75").hasClass("none") && $(".b76").hasClass("none") && $(".b77").hasClass("none")
-		// && $(".b78").hasClass("none") && $(".b79").hasClass("none") && $(".b80").hasClass("none")
-		&& $(".main").hasClass("none")
-		&& $(".second").hasClass("none")
-		&& $(".third").hasClass("none");
-	) {
+		&& $(".b4").hasClass("none") && $(".b5").hasClass("none") && $(".b6").hasClass("none")
+		&& $(".b7").hasClass("none") && $(".b8").hasClass("none") && $(".b9").hasClass("none")
+		&& $(".b10").hasClass("none") && $(".b11").hasClass("none") && $(".b12").hasClass("none")
+		&& $(".b13").hasClass("none") && $(".b14").hasClass("none") && $(".b15").hasClass("none")
+		&& $(".b16").hasClass("none") && $(".b17").hasClass("none") && $(".b18").hasClass("none")
+		&& $(".b19").hasClass("none") && $(".b20").hasClass("none") && $(".b21").hasClass("none")
+		&& $(".b22").hasClass("none") && $(".b23").hasClass("none") && $(".b24").hasClass("none")
+		&& $(".b25").hasClass("none") && $(".b26").hasClass("none") && $(".b27").hasClass("none")
+		&& $(".b28").hasClass("none") && $(".b29").hasClass("none") && $(".b30").hasClass("none")
+		&& $(".b31").hasClass("none") && $(".b32").hasClass("none") && $(".b33").hasClass("none")
+		&& $(".b34").hasClass("none") && $(".b35").hasClass("none") && $(".b36").hasClass("none")
+		&& $(".b37").hasClass("none") && $(".b38").hasClass("none") && $(".b39").hasClass("none")
+		&& $(".b40").hasClass("none") && $(".b41").hasClass("none") && $(".b42").hasClass("none")
+		&& $(".b43").hasClass("none") && $(".b44").hasClass("none") && $(".b45").hasClass("none")
+		&& $(".b46").hasClass("none") && $(".b47").hasClass("none") && $(".b48").hasClass("none")
+		&& $(".b49").hasClass("none") && $(".b50").hasClass("none") && $(".b51").hasClass("none")
+		&& $(".b51").hasClass("none") && $(".b52").hasClass("none") && $(".b53").hasClass("none")
+		&& $(".b54").hasClass("none") && $(".b55").hasClass("none") && $(".b56").hasClass("none")
+		&& $(".b57").hasClass("none") && $(".b58").hasClass("none") && $(".b59").hasClass("none")
+		&& $(".b60").hasClass("none") && $(".b61").hasClass("none") && $(".b62").hasClass("none")
+		&& $(".b63").hasClass("none") && $(".b64").hasClass("none") && $(".b65").hasClass("none")
+		&& $(".b66").hasClass("none") && $(".b67").hasClass("none") && $(".b68").hasClass("none")
+		&& $(".b69").hasClass("none") && $(".b70").hasClass("none") && $(".b71").hasClass("none")
+		&& $(".b72").hasClass("none") && $(".b73").hasClass("none") && $(".b74").hasClass("none")
+		&& $(".b75").hasClass("none") && $(".b76").hasClass("none") && $(".b77").hasClass("none")
+		&& $(".b78").hasClass("none") && $(".b79").hasClass("none") && $(".b80").hasClass("none")
+		&& $(".main").hasClass("none") && $(".second").hasClass("none") && $(".third").hasClass("none")) {
 			$(".blur").removeClass("none");
 			$(".hint1_2").removeClass("none");}
 	}, 7000);
 	// ВТОРАЯ ИГРА
 	$(".fish1").click(function() {
- 		 $(".main").addClass("none");
-		 $(".second").removeClass("none")
-		 $(".blur").removeClass("none");
-		 $(".hint2_1").removeClass("none")
+ 		$(".main").addClass("none");
+		$(".second").removeClass("none")
+		$(".blur").removeClass("none");
+		$(".hint2_1").removeClass("none")
 	});
 	$(".X2").click(function() {
-		 $(".hint2_1").addClass("none");
-		 $(".blur").addClass("none");
+		$(".hint2_1").addClass("none");
+		$(".blur").addClass("none");
+		setTimeout(function(){
+    	$(".s1").addClass("sa1");
+  	}, 5000);
+	});
+	$(".X2_2").click(function() {
+		$(".hint2_2").addClass("none");
+		$(".blur").addClass("none");
+		$(".main").removeClass("none");
+		$(".second").addClass("none");
 	});
 	$(".bottom1").click(function() {
-		 $(".bottom1").addClass("none");
-		 $(".bottom2").removeClass("none");
+		$(".bottom1").addClass("none");
+		$(".bottom2").removeClass("none");
+		$(".s1").addClass("sa1");
 	});
+
 	// ТРЕТЬЯ ИГРА
 	$(".fish2").click(function() {
- 		 $(".main").addClass("none");
-		 $(".third").removeClass("none")
-		 $(".blur").removeClass("none");
-		 $(".hint3_1").removeClass("none")
+ 		$(".main").addClass("none");
+		$(".third").removeClass("none")
+		$(".blur").removeClass("none");
+		$(".hint3_1").removeClass("none")
 	});
 	$(".X3").click(function() {
-		 $(".hint3_1").addClass("none");
-		 $(".blur").addClass("none");
+		$(".hint3_1").addClass("none");
+		$(".blur").addClass("none");
+	});
+	$(".X3_2").click(function() {
+		$(".hint3_2").addClass("none");
+		$(".blur").addClass("none");
+		$(".main").removeClass("none");
+		$(".third").addClass("none");
 	});
 
 });
