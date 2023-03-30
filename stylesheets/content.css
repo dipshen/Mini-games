@@ -1,16 +1,16 @@
 body{
   width: 100vw;
-  height: 100vh;
+  height: 56vw;
   background-color: #F5F5F5;
 }
 h1 {
   position: absolute;
-  font-size: 32px;
+  font-size: 2vw;
   font-family: 'Croogla 4F';
 }
 p {
   position: absolute;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-family: 'Croogla 4F';
 }
 div{
@@ -26,29 +26,31 @@ img:nth-of-type(1) {
 /* КИТ */
 
 .kit1{
-  top: 5vh;
+  top: 5vw;
   left: -50vw;
-  animation: a1 9s linear infinite;
+  animation: a1 15s linear infinite;
 }
 .a1:hover {
   animation-play-state: paused;
 }
 @keyframes a1 {
-  0% {left: -50vw; top: 5vh;}
-  25% {left: 0vw; top: 20vh;}
-  50% {left: 40vw; top: 0vh;}
-  75% {left: 80vw; top: 15vh;}
-  100% {left: 120vw; top: 15vh;}
+  0% {left: -50vw; top: 5vw;}
+  25% {left: 0vw; top: 15vw;}
+  50% {left: 40vw; top: 0vw;}
+  75% {left: 80vw; top: 15vw;}
+  100% {left: 110vw; top: 15vw;}
 }
 .kit1 img{
   top: 0;
   left: 0;
+  width: 47.6vw;
+  height: 21.5vw;
   /* width: 37vw;
-  height: 30vh; */
+  height: 30vw; */
 }
 .kit1 h1{
-  top:223px;
-  left: 376px;
+  top: 14.7vw;
+  left: 25.6vw;
   transform: rotate(-2deg);
   color: #1B79E2;
 }
@@ -62,27 +64,30 @@ img:nth-of-type(1) {
 /* РЫБА 1 */
 
 .fish1{
-  top: 60vh
+  top: 40vw;
   left: -50vw;
-  animation: a2 6s linear infinite;
+  animation: a2 9s linear infinite;
 }
 .a2:hover {
   animation-play-state: paused;
 }
 @keyframes a2 {
-  0% {left: -50vw; top: 60vh; opacity: 100%}
-  25% {left: 2vw; top: 30vh;}
-  50% {left: 50vw; top: 60vh;}
-  75% {left: 97vw; top: 50vh; opacity: 100%}
-  100% {left: 110vw; top: 70vh; opacity: 0%}
+  0% {left: -50vw; top: 40vw; opacity: 100%}
+  25% {left: 2vw; top: 30vw;}
+  50% {left: 50vw; top: 40vw;}
+  75% {left: 97vw; top: 20vw; opacity: 100%}
+  100% {left: 110vw; top: 20vw; opacity: 0%}
 }
 .fish1 img{
   top: 0;
   left: 0;
+  width: 8.8vw;
+  height: 7vw;
 }
 .fish1 h1{
-  top: -11px;
-  left: 32px;
+  top: -1vw;
+  left: 1.2vw;
+
   transform: rotate(12deg);
   color: #2C884C;
 }
@@ -96,27 +101,30 @@ img:nth-of-type(1) {
 /* РЫБА 2 */
 
 .fish2{
-  top: 60vh;
+  top: 50vw;
   left: 110vw;
-  animation: a3 5s linear infinite;
+  animation: a3 8s linear infinite;
 }
 .a3:hover {
   animation-play-state: paused;
 }
 @keyframes a3 {
-  0% {left: 110vw; top: 70vh; opacity: 100%}
-  25% {left: 70vw; top: 40vh;}
-  50% {left: 40vw; top: 60vh;}
-  75% {left: 00vw; top: 30vh; opacity: 100%}
-  100% {left: -30vw; top: 50vh; opacity: 0%}
+  0% {left: 110vw; top: 50vw; opacity: 100%}
+  25% {left: 70vw; top: 20vw;}
+  50% {left: 40vw; top: 50vw;}
+  75% {left: 00vw; top: 30vw; opacity: 100%}
+  100% {left: -30vw; top: 50vw; opacity: 0%}
 }
 .fish2 img{
   top: 0;
   left: 0;
+  width: 8.3vw;
+  height: 4vw;
+
 }
 .fish2 h1{
-  top: 72px;
-  left: 12px;
+  top: 3.7vw;
+  left: 0vw;
   transform: rotate(2deg);
   color: #FFD000;
 }
@@ -133,10 +141,10 @@ img:nth-of-type(1) {
 /* ИГРЫ */
 
 .blur{
-  top: 0vh;
+  top: 0vw;
   left: 0vw;
   width: 100vw;
-  height: 100vh;
+  height: 56vw;
   background: rgba(245, 245, 245, 0.5);
   backdrop-filter: blur(12px);
 }
@@ -146,263 +154,439 @@ img:nth-of-type(1) {
 /* Морские штуки */
 .mir img:nth-of-type(1) {
   top: 4vw;
-  left: -37vh;
+  left: -21vw;
+  width: 88.6vw;
+  height: 40vw;
+  animation: f1 5s linear infinite;
 }
 .mir img:nth-of-type(2) {
-  top: 51vh;
+  top: 29vw;
   left: 64vw;
+  width: 37.7vw;
+  height: 22.5vw;
 }
 .mir img:nth-of-type(3) {
-  top: 5vh;
+  top: 6vw;
   left: 4vw;
+  width: 9.6vw;
+  height: 4.1vw;
 }
 .mir img:nth-of-type(4) {
-  top: 11vh;
+  top: 6vw;
   left: 13vw;
+  width: 9.8vw;
+  height: 6.6vw;
 }
 .mir img:nth-of-type(5) {
-  top: 5vh;
+  top: 3vw;
   left: 31vw;
+  width: 14.2vw;
+  height: 8.7vw;
 }
 .mir img:nth-of-type(6) {
-  top: 6vh;
+  top: 3vw;
   left: 55vw;
+  width: 25vw;
+  height: 9.2vw;
 }
 .mir img:nth-of-type(7) {
-  top: 11vh;
+  top: 6vw;
   left: 88vw;
+  width: 10.5vw;
+  height: 12.3vw;
 }
 .mir img:nth-of-type(8) {
-  top: 30vh;
+  top: 17vw;
   left: 73vw;
+  width: 17vw;
+  height: 9.9vw;
 }
 .mir img:nth-of-type(9) {
-  top: 60vh;
+  top: 34vw;
   left: 9vw;
+  width: 10.8vw;
+  height: 4.9vw;
 }
 .mir img:nth-of-type(10) {
-  top: 68vh;
+  top: 38vw;
   left: 2vw;
+  width: 36.1vw;
+  height: 17.4vw;
 }
 .mir img:nth-of-type(11) {
-  top: 79vh;
+  top: 44vw;
   left: 45vw;
+  width: 10vw;
+  height: 5vw;
 }
 .mir img:nth-of-type(12) {
-  top: 89vh;
+  top: 50vw;
   left: 57vw;
+  width: 7vw;
+  height: 3.3vw;
 }
 .mir img:nth-of-type(13) {
-  top: 88vh;
+  top: 49vw;
   left: 87vw;
+  width: 8.2vw;
+  height: 4.7vw;
 }
 
 /* Пузыри */
 
 /* Большие */
 .bubbles img:nth-of-type(1) {
-  top: 34vh;
+  top: 34vw;
   left: 13vw;
+  width: 22vw;
+  height: 24vw;
 }
 .bubbles img:nth-of-type(2) {
-  top: 0vh;
+  top: 0vw;
   left: 55vw;
+  width: 22vw;
+  height: 24vw;
 }
 .bubbles img:nth-of-type(3) {
-  top: 59vh;
+  top: 59vw;
   left: 49vw;
+  width: 22vw;
+  height: 24vw;
 }
 /* Средние */
 .bubbles img:nth-of-type(4) {
-  top: 10vh;
+  top: 10vw;
   left: 15vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(5) {
-  top: 0vh;
+  top: 0vw;
   left: 30vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(6) {
-  top: 27vh;
+  top: 27vw;
   left: 43vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(7) {
-  top: 28vh;
+  top: 28vw;
   left: 82vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(8) {
-  top: 52vh;
+  top: 52vw;
   left: 37vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(9) {
-  top: 65vh;
+  top: 65vw;
   left: 1vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(10) {
-  top: 71vh;
+  top: 71vw;
   left: 27vw;
+  width: 13vw;
+  height: 14vw;
 }
 .bubbles img:nth-of-type(11) {
-  top: 57vh;
+  top: 57vw;
   left: 75vw;
+  width: 13vw;
+  height: 14vw;
 }
 /* Небольшие */
 .bubbles img:nth-of-type(12) {
-  top: 87vh;
+  top: 87vw;
   left: 93vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(13) {
-  top: 3vh;
+  top: 3vw;
   left: 12vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(14) {
-  top: 0vh;
+  top: 0vw;
   left: 23vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(15) {
-  top: 3vh;
+  top: 3vw;
   left: 50vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(16) {
-  top: 2vh;
+  top: 2vw;
   left: 76vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(17) {
-  top: 8vh;
+  top: 8vw;
   left: 90vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(18) {
-  top: 14vh;
+  top: 14vw;
   left: 84vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(19) {
-  top: 24vh;
+  top: 24vw;
   left: 3vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(20) {
-  top: 29vh;
+  top: 29vw;
   left: 10vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(21) {
-  top: 22vh;
+  top: 22vw;
   left: 28vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(22) {
-  top: 15vh;
+  top: 15vw;
   left: 44vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(23) {
-  top: 27vh;
+  top: 27vw;
   left: 35vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(24) {
-  top: 42vh;
+  top: 42vw;
   left: 1vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(25) {
-  top: 40vh;
+  top: 40vw;
   left: 35vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(26) {
-  top: 6vh;
+  top: 6vw;
   left: 2vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(27) {
-  top: 39vh;
+  top: 39vw;
   left: 57vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(28) {
-  top: 51vh;
+  top: 51vw;
   left: 51vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(29) {
-  top: 35vh;
+  top: 35vw;
   left: 74vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(30) {
-  top: 46vh;
+  top: 46vw;
   left: 76vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(31) {
-  top: 52vh;
+  top: 52vw;
   left: 89vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(32) {
-  top: 76vh;
+  top: 76vw;
   left: 19vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(33) {
-  top: 88vh;
+  top: 88vw;
   left: 12vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(34) {
-  top: 79vh;
+  top: 79vw;
   left: 43vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(35) {
-  top: 89vh;
+  top: 89vw;
   left: 39vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(36) {
-  top: 52vh;
+  top: 52vw;
   left: 68vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(37) {
-  top: 84vh;
+  top: 84vw;
   left: 71vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(38) {
-  top: 82vh;
+  top: 82vw;
   left: 80vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 .bubbles img:nth-of-type(39) {
-  top: 73vh;
+  top: 73vw;
   left: 89vw;
+  width: 6vw;
+  height: 6.4vw;
 }
 
-
 /* Маленькие */
+.bubbles img:nth-of-type(40) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(41) {
+  top: 21vw;
+  left: 9vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(42) {
+  top: 37vw;
+  left: 7vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(43) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(44) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(45) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(46) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(47) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(48) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(49) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(50) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
+.bubbles img:nth-of-type(51) {
+  top: 15vw;
+  left: 12vw;
+  width: 2.3vw;
+  height: 2.5vw;
+}
 
 
 
 /* ВТОРАЯ ИГРА */
 .second img:nth-of-type(1) {
-  top: 13vh;
+  top: 13vw;
   left: 22vw;
 }
 .second img:nth-of-type(2) {
-  top: 40vh;
+  top: 40vw;
   left: 22vw;
 }
 .second img:nth-of-type(3) {
-  top: 64vh;
+  top: 64vw;
   left: 22vw;
 }
 .second img:nth-of-type(4) {
-  top: 16vh;
+  top: 16vw;
   left: 13vw;
 }
 .second img:nth-of-type(5) {
-  top: 38vh;
+  top: 38vw;
   left: 15vw;
 }
 .second img:nth-of-type(6) {
-  top: 13.3vh;
+  top: 13.3vw;
   left: 82.5vw;
 }
 .second img:nth-of-type(7) {
-  top: 36.4vh;
+  top: 36.4vw;
   left: 82.5vw;
 }
 .second img:nth-of-type(8) {
-  top: 58.8vh;
+  top: 58.8vw;
   left: 82.5vw;
 }
 .fish3 img:nth-of-type(1) {
-  top: 0vh;
+  top: 0vw;
   left: 0vw;
 }
 .fish3 {
-  top: 65vh;
+  top: 65vw;
   left: 13vw;
 }
 .bottom1 p{
@@ -414,11 +598,11 @@ img:nth-of-type(1) {
   color: #2C884C;
 }
 .bottom1 {
-  top: 81vh;
+  top: 81vw;
   left: 76vw;
 }
 .bottom2 {
-  top: 81vh;
+  top: 81vw;
   left: 76.5vw;
 }
 
@@ -426,37 +610,37 @@ img:nth-of-type(1) {
 
 .hint1_1 {
   left: 32vw;
-  top: 31.5vh;
+  top: 31.5vw;
   background-color: #F5F5F5;
   width: 35vw;
-  height: 26vh;
+  height: 26vw;
   border: 10px solid #1B79E2;
 }
 .hint1_1 p {
   color: #1B79E2;
-  top: 9vh;
+  top: 9vw;
   left: 5vw;
 }
 .hint1_1 img {
-  top: 1.4vh;
+  top: 1.4vw;
   left: 32.8vw;
 }
 
 .hint1_2 {
   left: 32vw;
-  top: 31.5vh;
+  top: 31.5vw;
   background-color: #F5F5F5;
   width: 35vw;
-  height: 26vh;
+  height: 26vw;
   border: 10px solid #1B79E2;
 }
 .hint1_2 p {
   color: #1B79E2;
-  top: 9vh;
+  top: 9vw;
   left: 5vw;
 }
 .hint1_2 img {
-  top: 1.4vh;
+  top: 1.4vw;
   left: 32.8vw;
 }
 
@@ -464,19 +648,19 @@ img:nth-of-type(1) {
 
 .hint2_1 {
   left: 27.4vw;
-  top: 31.5vh;
+  top: 31.5vw;
   background-color: #F5F5F5;
   width: 45vw;
-  height: 26vh;
+  height: 26vw;
   border: 10px solid #2C884C;
 }
 .hint2_1 p {
   color: #2C884C;
-  top: 9vh;
+  top: 9vw;
   left: 5vw;
 }
 .hint2_1 img {
-  top: 1.4vh;
+  top: 1.4vw;
   left: 42.9vw;
 }
 
@@ -484,19 +668,19 @@ img:nth-of-type(1) {
 
 .hint3_1 {
   left: 30vw;
-  top: 31.5vh;
+  top: 31.5vw;
   background-color: #F5F5F5;
   width: 40vw;
-  height: 26vh;
+  height: 26vw;
   border: 10px solid #FFD000;
 }
 .hint3_1 p {
   color: #FFD000;
-  top: 9vh;
+  top: 9vw;
   left: 5vw;
 }
 .hint3_1 img {
-  top: 1.4vh;
+  top: 1.4vw;
   left: 37.9vw;
 }
 

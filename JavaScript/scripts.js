@@ -71,7 +71,21 @@ $(document).ready(function(){
 		 $(".b20").addClass("none");
 	});
 
-	if ($(".b1").hasClass("none") && $(".b2").hasClass("none")) {
+	if ($(".b1").hasClass("none") && $(".b2").hasClass("none") && $(".b3").hasClass("none")
+	&& $(".b4").hasClass("none") && $(".b5").hasClass("none") && $(".b6").hasClass("none")
+	&& $(".b7").hasClass("none") && $(".b8").hasClass("none") && $(".b9").hasClass("none")
+	&& $(".b10").hasClass("none") && $(".b11").hasClass("none") && $(".b12").hasClass("none")
+	&& $(".b13").hasClass("none") && $(".b14").hasClass("none") && $(".b15").hasClass("none")
+	&& $(".b16").hasClass("none") && $(".b17").hasClass("none") && $(".b18").hasClass("none")
+	&& $(".b19").hasClass("none") && $(".b20").hasClass("none") && $(".b21").hasClass("none")
+	&& $(".b22").hasClass("none") && $(".b23").hasClass("none") && $(".b24").hasClass("none")
+	&& $(".b25").hasClass("none") && $(".b26").hasClass("none") && $(".b27").hasClass("none")
+	&& $(".b28").hasClass("none") && $(".b29").hasClass("none") && $(".b30").hasClass("none")
+	&& $(".b31").hasClass("none") && $(".b32").hasClass("none") && $(".b33").hasClass("none")
+	&& $(".b34").hasClass("none") && $(".b35").hasClass("none") && $(".b36").hasClass("none")
+	&& $(".b37").hasClass("none") && $(".b38").hasClass("none") && $(".b39").hasClass("none")
+	// && $(".b40").hasClass("none") && $(".b41").hasClass("none") && $(".b42").hasClass("none")
+	) {
 			$(".blur").removeClass("none");
 			$(".hint1_2").removeClass("none");
 	};
