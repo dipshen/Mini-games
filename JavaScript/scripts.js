@@ -284,8 +284,8 @@ $(document).ready(function(){
 		// && $(".b72").hasClass("none") && $(".b73").hasClass("none") && $(".b74").hasClass("none")
 		// && $(".b75").hasClass("none") && $(".b76").hasClass("none") && $(".b77").hasClass("none")
 		// && $(".b78").hasClass("none") && $(".b79").hasClass("none") && $(".b80").hasClass("none")
-		&& $(".main").hasClass("none");
-		&& $(".second").hasClass("none");
+		&& $(".main").hasClass("none")
+		&& $(".second").hasClass("none")
 		&& $(".third").hasClass("none");
 	) {
 			$(".blur").removeClass("none");
