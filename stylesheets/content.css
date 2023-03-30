@@ -780,11 +780,11 @@ img {
 /* ПОДСКАЗКИ */
 
 .hint1_1 {
-  left: 32vw;
-  top: 31.5vw;
+  left: 32.5vw;
+  top: 19.8vw;
   background-color: #F5F5F5;
   width: 35vw;
-  height: 26vw;
+  height: 15vw;
   border: 10px solid #1B79E2;
 }
 .hint1_1 p {

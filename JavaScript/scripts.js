@@ -70,8 +70,8 @@ $(document).ready(function(){
 	$(".b20").click(function() {
 		 $(".b20").addClass("none");
 	});
-
-	if ($(".b1").hasClass("none") && $(".b2").hasClass("none") && $(".b3").hasClass("none")
+	setInterval(function(){
+		if ($(".b1").hasClass("none") && $(".b2").hasClass("none") && $(".b3").hasClass("none")
 	// && $(".b4").hasClass("none") && $(".b5").hasClass("none") && $(".b6").hasClass("none")
 	// && $(".b7").hasClass("none") && $(".b8").hasClass("none") && $(".b9").hasClass("none")
 	// && $(".b10").hasClass("none") && $(".b11").hasClass("none") && $(".b12").hasClass("none")
@@ -85,10 +85,10 @@ $(document).ready(function(){
 	// && $(".b34").hasClass("none") && $(".b35").hasClass("none") && $(".b36").hasClass("none")
 	// && $(".b37").hasClass("none") && $(".b38").hasClass("none") && $(".b39").hasClass("none")
 	// && $(".b40").hasClass("none") && $(".b41").hasClass("none") && $(".b42").hasClass("none")
-	) {
+		) {
 			$(".blur").removeClass("none");
 			$(".hint1_2").removeClass("none");
-	};
+	}, 1000);
 	// if ($('.b1, .b2, .b3').hasClass('none').length === 3) {
   // 	$('.blur').removeClass('none');
 	// };
