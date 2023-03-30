@@ -312,6 +312,7 @@ $(document).ready(function(){
 		$(".bottom1").addClass("none");
 		$(".bottom2").removeClass("none");
 		$(".s1").addClass("sa1");
+		$(".s2").addClass("sa2");
 	});
 
 	// ТРЕТЬЯ ИГРА

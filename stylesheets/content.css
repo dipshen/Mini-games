@@ -735,7 +735,6 @@ img {
 .second img:nth-of-type(4) {
   top: 9vw;
   left: 13vw;
-  /* animation: s1 15s linear; */
 }
 .sa1 {
   animation-name: ssa1;
@@ -756,6 +755,22 @@ img {
 .second img:nth-of-type(5) {
   top: 21vw;
   left: 15vw;
+}
+.sa2 {
+  animation-name: ssa2;
+  animation-duration: 5s;
+}
+@keyframes ssa2 {
+0% {left: 9vw; top: 13vw;}
+15% {left: 29vw; top: 13vw;}
+20% {left: 29vw; top: 4vw; transform: rotate(-80deg);}
+31% {left: 39vw; top: 4vw; transform: rotate(0deg);}
+45% {left: 39vw; top: 12vw; transform: rotate(100deg);}
+50% {left: 50vw; top: 12vw; transform: rotate(0deg);}
+60% {left: 50vw; top: 6vw; transform: rotate(-80deg);}
+70% {left: 63vw; top: 6vw; transform: rotate(0deg);}
+85% {left: 63vw; top: 9vw; transform: rotate(100deg);}
+100% {left: 83vw; top: 13vw; transform: rotate(0deg);}
 }
 .second img:nth-of-type(6) {
   top: 7.1vw;
@@ -792,6 +807,68 @@ img {
 .bottom2 {
   top: 46vw;
   left: 76.5vw;
+}
+
+/* ТРЕТЬЯ ИГРА */
+.third img:nth-of-type(1){
+  top: 20vw;
+  left: -22vw;
+  width: 22vw;
+  height: 13vw;
+}
+.third img:nth-of-type(2){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(3){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(4){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(5){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(6){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(7){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(8){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(9){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
+}
+.third img:nth-of-type(10){
+  top: 20vw;
+  left: 110vw;
+  width: 7.2vw;
+  height: 7.7vw;
 }
 
 /* ПОДСКАЗКИ */
