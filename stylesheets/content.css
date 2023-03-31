@@ -732,17 +732,26 @@ img {
   top: 36vw;
   left: 22vw;
 }
-.second img:nth-of-type(4) {
+.second img:nth-of-type(5) {
+  top: 20.1vw;
+  left: 82.5vw;
+}
+.second img:nth-of-type(6) {
+  top: 33.1vw;
+  left: 82.5vw;
+}
+.second img:nth-of-type(7) {
   top: 9vw;
   left: 13vw;
 }
 .sa1 {
   animation-name: ssa1;
-  animation-duration: 5s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
 }
 @keyframes ssa1 {
-0% {left: 9vw; top: 13vw;}
-15% {left: 29vw; top: 13vw;}
+0% {left: 13vw; top: 9vw;}
+15% {left: 29vw; top: 9vw;}
 20% {left: 29vw; top: 4vw; transform: rotate(-80deg);}
 31% {left: 39vw; top: 4vw; transform: rotate(0deg);}
 45% {left: 39vw; top: 12vw; transform: rotate(100deg);}
@@ -750,38 +759,31 @@ img {
 60% {left: 50vw; top: 6vw; transform: rotate(-80deg);}
 70% {left: 63vw; top: 6vw; transform: rotate(0deg);}
 85% {left: 63vw; top: 9vw; transform: rotate(100deg);}
-100% {left: 83vw; top: 13vw; transform: rotate(0deg);}
+100% {left: 83vw; top: 9vw; transform: rotate(0deg);}
 }
-.second img:nth-of-type(5) {
+.second img:nth-of-type(8) {
   top: 21vw;
   left: 15vw;
 }
 .sa2 {
   animation-name: ssa2;
   animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 @keyframes ssa2 {
-0% {left: 9vw; top: 13vw;}
-15% {left: 29vw; top: 13vw;}
-20% {left: 29vw; top: 4vw; transform: rotate(-80deg);}
-31% {left: 39vw; top: 4vw; transform: rotate(0deg);}
-45% {left: 39vw; top: 12vw; transform: rotate(100deg);}
-50% {left: 50vw; top: 12vw; transform: rotate(0deg);}
-60% {left: 50vw; top: 6vw; transform: rotate(-80deg);}
-70% {left: 63vw; top: 6vw; transform: rotate(0deg);}
-85% {left: 63vw; top: 9vw; transform: rotate(100deg);}
-100% {left: 83vw; top: 13vw; transform: rotate(0deg);}
+0% {left: 15vw; top: 21vw;}
+15% {left: 34vw; top: 21vw;}
+20% {left: 34vw; top: 24vw;}
+31% {left: 47vw; top: 24vw;;}
+45% {left: 47vw; top: 18vw;}
+50% {left: 58vw; top: 18vw;}
+60% {left: 58vw; top: 26vw;}
+70% {left: 69vw; top: 26vw;}
+85% {left: 69vw; top: 21vw;}
+100% {left: 82vw; top: 21vw;}
 }
-.second img:nth-of-type(6) {
+.second img:nth-of-type(4) {
   top: 7.1vw;
-  left: 82.5vw;
-}
-.second img:nth-of-type(7) {
-  top: 20.1vw;
-  left: 82.5vw;
-}
-.second img:nth-of-type(8) {
-  top: 33.1vw;
   left: 82.5vw;
 }
 .fish3 img:nth-of-type(1) {
@@ -816,59 +818,149 @@ img {
   width: 22vw;
   height: 13vw;
 }
+.ta1 {
+  animation-name: tta1;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta1 {
+0% {left: -22vw; top: 20vw;}
+100% {left: 110vw; top: 20vw;}
+}
 .third img:nth-of-type(2){
-  top: 20vw;
+  top: 11vw;
   left: 110vw;
   width: 7.2vw;
   height: 7.7vw;
+}
+.ta2 {
+  animation-name: tta2;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta2 {
+0% {left: 110vw; top: 11vw;}
+100% {left: -20vw; top: 11vw;}
 }
 .third img:nth-of-type(3){
-  top: 20vw;
-  left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  top: 50vw;
+  left: -20vw;
+  width: 15vw;
+  height: 12.2vw;
+}
+.ta3 {
+  animation-name: tta3;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta3 {
+0% {left: -22vw; top: 50vw;}
+100% {left: 110vw; top: 50vw;}
 }
 .third img:nth-of-type(4){
-  top: 20vw;
+  top: 27vw;
   left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  width: 15.2vw;
+  height: 14.5vw;
+}
+.ta4 {
+  animation-name: tta4;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta4 {
+0% {left: 110vw; top: 27vw;}
+100% {left: -20vw; top: 27vw;}
 }
 .third img:nth-of-type(5){
-  top: 20vw;
-  left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  top: 10vw;
+  left: -20vw;
+  width: 9.5vw;
+  height: 4.5vw;
+}
+.ta5 {
+  animation-name: tta5;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta5 {
+0% {left: -20vw; top: 10vw;}
+100% {left: 110vw; top: 10vw;}
 }
 .third img:nth-of-type(6){
-  top: 20vw;
+  top: 45vw;
   left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  width: 9vw;
+  height: 9.7vw;
+}
+.ta6 {
+  animation-name: tta6;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta6 {
+0% {left: 110vw; top: 45vw;}
+100% {left: -20vw; top: 45vw;}
 }
 .third img:nth-of-type(7){
-  top: 20vw;
-  left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  top: 40vw;
+  left: -20vw;
+  width: 11vw;
+  height: 10.6vw;
+}
+.ta7 {
+  animation-name: tta7;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta7 {
+0% {left: -22vw; top: 40vw;}
+100% {left: 110vw; top: 40vw;}
 }
 .third img:nth-of-type(8){
   top: 20vw;
   left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  width: 11.7vw;
+  height: 9.5vw;
+}
+.ta8 {
+  animation-name: tta8;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta8 {
+0% {left: 110vw; top: 20vw;}
+100% {left: -20vw; top: 20vw;}
 }
 .third img:nth-of-type(9){
-  top: 20vw;
-  left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  top: 28vw;
+  left: -20vw;
+  width: 6.6vw;
+  height: 7.1vw;
+}
+.ta9 {
+  animation-name: tta9;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta9 {
+0% {left: -22vw; top: 28vw;}
+100% {left: 110vw; top: 28vw;}
 }
 .third img:nth-of-type(10){
-  top: 20vw;
+  top: 55vw;
   left: 110vw;
-  width: 7.2vw;
-  height: 7.7vw;
+  width: 11.9vw;
+  height: 5.1vw;
+}
+.ta10 {
+  animation-name: tta10;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes tta10 {
+0% {left: 110vw; top: 55vw;}
+100% {left: -20vw; top: 55vw;}
 }
 
 /* ПОДСКАЗКИ */
@@ -948,6 +1040,28 @@ img {
   top: 1.1vw;
   left: 37.8vw;
 }
+
+.hint3_1_1 {
+  left: 30vw;
+  top: 19.8vw;
+  background-color: #F5F5F5;
+  width: 40vw;
+  height: 15vw;
+  border: 10px solid #FFD000;
+}
+.hint3_1_1 p {
+  color: #FFD000;
+  top: 5vw;
+  left: 3.8vw;
+}
+.hint3_1_1 img {
+  top: 1.1vw;
+  left: 37.8vw;
+}
+
+
+
+
 
 
 

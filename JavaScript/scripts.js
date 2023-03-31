@@ -291,16 +291,13 @@ $(document).ready(function(){
 	// ВТОРАЯ ИГРА
 	$(".fish1").click(function() {
  		$(".main").addClass("none");
-		$(".second").removeClass("none")
+		$(".second").removeClass("none");
 		$(".blur").removeClass("none");
-		$(".hint2_1").removeClass("none")
+		$(".hint2_1").removeClass("none");
 	});
 	$(".X2").click(function() {
 		$(".hint2_1").addClass("none");
 		$(".blur").addClass("none");
-		setTimeout(function(){
-    	$(".s1").addClass("sa1");
-  	}, 5000);
 	});
 	$(".X2_2").click(function() {
 		$(".hint2_2").addClass("none");
@@ -314,18 +311,270 @@ $(document).ready(function(){
 		$(".s1").addClass("sa1");
 		$(".s2").addClass("sa2");
 	});
+	$(function() {
+	  let count = 0;
+	  $(".bottom2").click(function() {
+	    count += 1;
+	    if (count == 1) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 2) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 3) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 4) {
+	      $(".fish3").css({
+	        top: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 5) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 6) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 7) {
+	      $(".fish3").css({
+	        top: function(index, value) {
+	          return parseFloat(value) - 75 + 'px';
+	        }
+	      });
+	    }
+			if (count == 8) {
+	      $(".fish3").css({
+	        top: function(index, value) {
+	          return parseFloat(value) - 75 + 'px';
+	        }
+	      });
+	    }
+			if (count == 9) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 110 + 'px';
+	        }
+	      });
+	    }
+			if (count == 10) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 110 + 'px';
+	        }
+	      });
+	    }
+			if (count == 11) {
+	      $(".fish3").css({
+	        top: function(index, value) {
+	          return parseFloat(value) + 120 + 'px';
+	        }
+	      });
+	    }
+			if (count == 12) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 120 + 'px';
+	        }
+	      });
+	    }
+			if (count == 13) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 120 + 'px';
+	        }
+	      });
+	    }
+			if (count == 14) {
+	      $(".fish3").css({
+	        top: function(index, value) {
+	          return parseFloat(value) - 70 + 'px';
+	        }
+	      });
+	    }
+			if (count == 15) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 16) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 17) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+			if (count == 18) {
+	      $(".fish3").css({
+	        left: function(index, value) {
+	          return parseFloat(value) + 100 + 'px';
+	        }
+	      });
+	    }
+	  });
+	});
 
 	// ТРЕТЬЯ ИГРА
 	$(".fish2").click(function() {
  		$(".main").addClass("none");
-		$(".third").removeClass("none")
+		$(".third").removeClass("none");
 		$(".blur").removeClass("none");
-		$(".hint3_1").removeClass("none")
+		$(".hint3_1").removeClass("none");
 	});
-	$(".X3").click(function() {
+	$(".X3_1").click(function() {
 		$(".hint3_1").addClass("none");
 		$(".blur").addClass("none");
+		$(".t1").addClass("ta1");
+		setTimeout(function(){
+	 		$(".t2").addClass("ta2");
+ 		}, 2000);
+		setTimeout(function(){
+	 		$(".t3").addClass("ta3");
+ 		}, 4000);
+		setTimeout(function(){
+	 		$(".t4").addClass("ta4");
+ 		}, 5000);
+		setTimeout(function(){
+	 		$(".t5").addClass("ta5");
+ 		}, 7000);
+		setTimeout(function(){
+	 		$(".t6").addClass("ta6");
+ 		}, 8000);
+		setTimeout(function(){
+	 		$(".t7").addClass("ta7");
+ 		}, 9000);
+		setTimeout(function(){
+	 		$(".t8").addClass("ta8");
+ 		}, 11000);
+		setTimeout(function(){
+	 		$(".t9").addClass("ta9");
+ 		}, 13000);
+		setTimeout(function(){
+	 		$(".t10").addClass("ta10");
+ 		}, 14000);
+		setTimeout(function(){
+			if ($(".mine").hasClass("none")
+			&& $(".first").hasClass("none")
+			&& $(".second").hasClass("none")
+			&& s===10){
+				$(".hint3_2_1").removeClass("none");
+				$(".blur").removeClass("none");
+			}
+				else if ($(".mine").hasClass("none")
+				&& $(".first").hasClass("none")
+				&& $(".second").hasClass("none")
+				&& s<10) {
+					$(".hint3_2_2").removeClass("none");
+					$(".blur").removeClass("none");
+				}
+		}, 17000);
 	});
+	let s=0;
+	$(".t1").click(function() {
+ 		$(".t1").addClass("none");
+		$(".t1").removeClass("tta1");
+		s+=1;
+	});
+	$(".t2").click(function() {
+ 		$(".t2").addClass("none");
+		$(".t2").removeClass("tta2");
+		s+=1;
+	});
+	$(".t3").click(function() {
+ 		$(".t3").addClass("none");
+		$(".t3").removeClass("tta3");
+		s+=1;
+	});
+	$(".t4").click(function() {
+ 		$(".t4").addClass("none");
+		$(".t4").removeClass("tta4");
+		s+=1;
+	});
+	$(".t5").click(function() {
+ 		$(".t5").addClass("none");
+		s+=1;
+	});
+	$(".t6").click(function() {
+ 		$(".t6").addClass("none");
+		s+=1;
+	});
+	$(".t7").click(function() {
+ 		$(".t7").addClass("none");
+		s+=1;
+	});
+	$(".t8").click(function() {
+ 		$(".t8").addClass("none");
+		s+=1;
+	});
+	$(".t9").click(function() {
+ 		$(".t9").addClass("none");
+		s+=1;
+	});
+	$(".t10").click(function() {
+ 		$(".t10").addClass("none");
+		s+=1;
+	});
+	// setInterval(function(){
+	// 	if ($(".mine").hasClass("none")
+	// 	&& $(".first").hasClass("none")
+	// 	&& $(".second").hasClass("none")
+	// 	&& s===10){
+	// 		$(".hint3_2_1").removeClass("none");
+	// 		$(".blur").removeClass("none");}
+	// 		else if ($(".mine").hasClass("none")
+	// 		&& $(".first").hasClass("none")
+	// 		&& $(".second").hasClass("none")
+	// 		&& s<10) {
+	// 			$(".hint3_2_2").removeClass("none");
+	// 			$(".blur").removeClass("none");}
+	// }, 1000);
+
+
+	// for (let i = 1; i <= 10; i++) {
+  // $(`.t${i}`).click(function() {
+  //   $(`.t${i}`).addClass("none");
+  //   s+=1;
+  // });
+	// }
+	// setInterval(function() {
+  // if ($(".mine, .first, .second").hasClass("none") && s === 10) {
+  //   $(".hint3_2_1").removeClass("none");
+  //   $(".blur").removeClass("none");
+  // } else if ($(".mine, .first, .second").hasClass("none") && s < 10) {
+  //   $(".hint3_2_2").removeClass("none");
+  //   $(".blur").removeClass("none");
+  // }
+	// }, 1000);
 	$(".X3_2").click(function() {
 		$(".hint3_2").addClass("none");
 		$(".blur").addClass("none");
