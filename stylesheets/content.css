@@ -36,10 +36,7 @@
   }
   @keyframes a1 {
     0% {left: -50vw; top: 5vw;}
-    25% {left: 0vw; top: 15vw;}
-    50% {left: 40vw; top: 0vw;}
-    75% {left: 80vw; top: 15vw;}
-    100% {left: 110vw; top: 15vw;}
+    100% {left: 110vw; top: 5vw;}
   }
   .kit1 img{
     top: 0;
@@ -65,19 +62,16 @@
   /* РЫБА 1 */
 
   .fish1{
-    top: 40vw;
+    top:250vw;
     left: -50vw;
-    animation: a2 9s linear infinite;
+    animation: a2 8s linear infinite;
   }
   .a2:hover {
     animation-play-state: paused;
   }
   @keyframes a2 {
-    0% {left: -50vw; top: 40vw; opacity: 100%}
-    25% {left: 2vw; top: 30vw;}
-    50% {left: 50vw; top: 40vw;}
-    75% {left: 97vw; top: 20vw; opacity: 100%}
-    100% {left: 110vw; top: 20vw; opacity: 0%}
+    0% {left: -50vw; top: 25vw;}
+    100% {left: 110vw; top: 25vw;}
   }
   .fish1 img{
     top: 0;
@@ -102,19 +96,16 @@
   /* РЫБА 2 */
 
   .fish2{
-    top: 50vw;
+    top: 35vw;
     left: 110vw;
-    animation: a3 8s linear infinite;
+    animation: a3 7s linear infinite;
   }
   .a3:hover {
     animation-play-state: paused;
   }
   @keyframes a3 {
-    0% {left: 110vw; top: 50vw; opacity: 100%}
-    25% {left: 70vw; top: 20vw;}
-    50% {left: 40vw; top: 50vw;}
-    75% {left: 00vw; top: 30vw; opacity: 100%}
-    100% {left: -30vw; top: 50vw; opacity: 0%}
+    0% {left: 110vw; top: 35vw;}
+    100% {left: -30vw; top: 35vw;}
   }
   .fish2 img{
     top: 0;

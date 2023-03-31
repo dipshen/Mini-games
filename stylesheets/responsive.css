@@ -1,4 +1,4 @@
-@media only screen and (min-width: 376px) and (max-width: 833px){
+@media only screen and (max-width: 833px){
   body{
     width: 100vw;
     height: 143vw;
@@ -84,9 +84,6 @@
     left: 110vw;
     animation: a3 6s linear infinite;
   }
-  .a3:hover {
-    animation-play-state: paused;
-  }
   @keyframes a3 {
     0% {left: 110vw; top: 80vw;}
     100% {left: -20vw; top: 80vw;}
@@ -104,15 +101,6 @@
     transform: rotate(2deg);
     color: #FFD000;
   }
-  .h1_3 {
-    display: none;
-  }
-  .fish2:hover .h1_3 {
-    display: block;
-  }
-  .none {
-    display: none;
-  }
 
   /* ИГРЫ */
 
@@ -121,8 +109,6 @@
     left: 0vw;
     width: 100vw;
     height: 56vw;
-    background: rgba(245, 245, 245, 0.5);
-    backdrop-filter: blur(12px);
   }
 
   /* ПЕРВАЯ ИГРА */
