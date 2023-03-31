@@ -28,7 +28,7 @@
   .kit1{
     top: 5vw;
     left: -50vw;
-    animation: a1 15s linear infinite;
+    animation: a1 10s linear infinite;
   }
   .a1:hover {
     animation-play-state: paused;
@@ -63,7 +63,7 @@
   .fish1{
     top:250vw;
     left: -50vw;
-    animation: a2 8s linear infinite;
+    animation: a2 7s linear infinite;
   }
   .a2:hover {
     animation-play-state: paused;
@@ -97,7 +97,7 @@
   .fish2{
     top: 35vw;
     left: 110vw;
-    animation: a3 7s linear infinite;
+    animation: a3 6s linear infinite;
   }
   .a3:hover {
     animation-play-state: paused;
@@ -148,79 +148,143 @@
     left: -21vw;
     width: 88.6vw;
     height: 40vw;
-    animation: f1 5s linear infinite;
+    animation: fa1 7s linear infinite;
+  }
+  @keyframes fa1 {
+    0% {left: -80vw; top: 4vw;}
+    100% {left: 120vw; top: 4vw;}
   }
   .mir img:nth-of-type(2) {
     top: 29vw;
     left: 64vw;
     width: 37.7vw;
     height: 22.5vw;
+    animation: fa2 5s linear infinite;
+  }
+  @keyframes fa2 {
+    0% {left: 110vw; top: 29vw;}
+    100% {left: -50vw; top: 29vw;}
   }
   .mir img:nth-of-type(3) {
     top: 6vw;
     left: 4vw;
     width: 9.6vw;
     height: 4.1vw;
+    animation: fa3 2s linear infinite;
+  }
+  @keyframes fa3 {
+    0% {left: 120vw; top: 6vw;}
+    100% {left: -20vw; top: 6vw;}
   }
   .mir img:nth-of-type(4) {
     top: 6vw;
     left: 13vw;
     width: 9.8vw;
     height: 6.6vw;
+    animation: fa4 5s linear infinite;
+  }
+  @keyframes fa4 {
+    0% {left: 110vw; top: 6vw;}
+    100% {left: -20vw; top: 6vw;}
   }
   .mir img:nth-of-type(5) {
     top: 3vw;
     left: 31vw;
     width: 14.2vw;
     height: 8.7vw;
+    animation: fa5 7s linear infinite;
+  }
+  @keyframes fa5 {
+    0% {left: -20vw; top: 3vw;}
+    100% {left: 120vw; top: 3vw;}
   }
   .mir img:nth-of-type(6) {
     top: 3vw;
     left: 55vw;
     width: 25vw;
     height: 9.2vw;
+    animation: fa6 5s linear infinite;
+  }
+  @keyframes fa6 {
+    0% {left: 120vw; top: 3vw;}
+    100% {left: -30vw; top: 3vw;}
   }
   .mir img:nth-of-type(7) {
     top: 6vw;
     left: 88vw;
     width: 10.5vw;
     height: 12.3vw;
+    animation: fa7 8s linear infinite;
+  }
+  @keyframes fa7 {
+    0% {left: 120vw; top: 6vw;}
+    100% {left: -20vw; top: 6vw;}
   }
   .mir img:nth-of-type(8) {
     top: 17vw;
     left: 73vw;
     width: 17vw;
     height: 9.9vw;
+    animation: fa8 6s linear infinite;
+  }
+  @keyframes fa8 {
+    0% {left: 120vw; top: 17vw;}
+    100% {left: -30vw; top: 13vw;}
   }
   .mir img:nth-of-type(9) {
     top: 34vw;
     left: 9vw;
     width: 10.8vw;
     height: 4.9vw;
+    animation: fa9 5s linear infinite;
+  }
+  @keyframes fa9 {
+    0% {left: -30vw; top: 34vw;}
+    100% {left: 120vw; top: 34vw;}
   }
   .mir img:nth-of-type(10) {
     top: 38vw;
     left: 2vw;
     width: 36.1vw;
     height: 17.4vw;
+    animation: fa10 7s linear infinite;
+  }
+  @keyframes fa10 {
+    0% {left: -80vw; top: 38vw;}
+    100% {left: 120vw; top: 38vw;}
   }
   .mir img:nth-of-type(11) {
     top: 44vw;
     left: 45vw;
     width: 10vw;
     height: 5vw;
+    animation: fa11 6s linear infinite;
+  }
+  @keyframes fa11 {
+    0% {left: 120vw; top: 44vw;}
+    100% {left: -10vw; top: 44vw;}
   }
   .mir img:nth-of-type(12) {
     top: 50vw;
     left: 57vw;
     width: 7vw;
     height: 3.3vw;
+    animation: fa12 5s linear infinite;
+  }
+  @keyframes fa12 {
+    0% {left: -10vw; top: 50vw;}
+    100% {left: 120vw; top: 50vw;}
   }
   .mir img:nth-of-type(13) {
     top: 49vw;
     left: 87vw;
     width: 8.2vw;
     height: 4.7vw;
+    animation: fa13 3s linear infinite;
+  }
+  @keyframes fa13 {
+    0% {left: -20vw; top: 49vw;}
+    100% {left: 120vw; top: 49vw;}
   }
 
   /* Пузыри */
