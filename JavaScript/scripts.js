@@ -1,5 +1,7 @@
 $(document).ready(function(){
+
 	// ПЕРВАЯ ИГРА
+
 	$(".kit1").click(function() {
  		 $(".main").addClass("none");
 		 $(".first").removeClass("none");
@@ -288,19 +290,27 @@ $(document).ready(function(){
 			$(".blur").removeClass("none");
 			$(".hint1_2").removeClass("none");}
 	}, 7000);
+
 	// ВТОРАЯ ИГРА
+
 	$(".fish1").click(function() {
  		$(".main").addClass("none");
 		$(".second").removeClass("none");
 		$(".blur").removeClass("none");
 		$(".hint2_1").removeClass("none");
 	});
-	$(".X2").click(function() {
+	$(".X2_1").click(function() {
 		$(".hint2_1").addClass("none");
 		$(".blur").addClass("none");
 	});
 	$(".X2_2").click(function() {
-		$(".hint2_2").addClass("none");
+		$(".hint2_2_1").addClass("none");
+		$(".blur").addClass("none");
+		$(".main").removeClass("none");
+		$(".second").addClass("none");
+	});
+	$(".X2_3").click(function() {
+		$(".hint2_2_2").addClass("none");
 		$(".blur").addClass("none");
 		$(".main").removeClass("none");
 		$(".second").addClass("none");
@@ -440,11 +450,19 @@ $(document).ready(function(){
 	          return parseFloat(value) + 100 + 'px';
 	        }
 	      });
+				if ($(".s2").css("left") == "82vw" && $(".s2").css("top") == "21vw"){
+				  $(".hint2_2_2").removeClass("none");
+					$(".blur").removeClass("none");
+				} else {
+				  $(".hint2_2_1").removeClass("none");
+					$(".blur").removeClass("none");
+				}
 	    }
 	  });
 	});
 
 	// ТРЕТЬЯ ИГРА
+
 	$(".fish2").click(function() {
  		$(".main").addClass("none");
 		$(".third").removeClass("none");
@@ -483,21 +501,21 @@ $(document).ready(function(){
 	 		$(".t10").addClass("ta10");
  		}, 14000);
 		setTimeout(function(){
-			if ($(".mine").hasClass("none")
+			if ($(".main").hasClass("none")
 			&& $(".first").hasClass("none")
 			&& $(".second").hasClass("none")
 			&& s===10){
 				$(".hint3_2_1").removeClass("none");
 				$(".blur").removeClass("none");
 			}
-				else if ($(".mine").hasClass("none")
+				else if ($(".main").hasClass("none")
 				&& $(".first").hasClass("none")
 				&& $(".second").hasClass("none")
 				&& s<10) {
 					$(".hint3_2_2").removeClass("none");
 					$(".blur").removeClass("none");
 				}
-		}, 17000);
+		}, 18000);
 	});
 	let s=0;
 	$(".t1").click(function() {
@@ -544,42 +562,22 @@ $(document).ready(function(){
  		$(".t10").addClass("none");
 		s+=1;
 	});
-	// setInterval(function(){
-	// 	if ($(".mine").hasClass("none")
-	// 	&& $(".first").hasClass("none")
-	// 	&& $(".second").hasClass("none")
-	// 	&& s===10){
-	// 		$(".hint3_2_1").removeClass("none");
-	// 		$(".blur").removeClass("none");}
-	// 		else if ($(".mine").hasClass("none")
-	// 		&& $(".first").hasClass("none")
-	// 		&& $(".second").hasClass("none")
-	// 		&& s<10) {
-	// 			$(".hint3_2_2").removeClass("none");
-	// 			$(".blur").removeClass("none");}
-	// }, 1000);
-
-
-	// for (let i = 1; i <= 10; i++) {
-  // $(`.t${i}`).click(function() {
-  //   $(`.t${i}`).addClass("none");
-  //   s+=1;
-  // });
-	// }
-	// setInterval(function() {
-  // if ($(".mine, .first, .second").hasClass("none") && s === 10) {
-  //   $(".hint3_2_1").removeClass("none");
-  //   $(".blur").removeClass("none");
-  // } else if ($(".mine, .first, .second").hasClass("none") && s < 10) {
-  //   $(".hint3_2_2").removeClass("none");
-  //   $(".blur").removeClass("none");
-  // }
-	// }, 1000);
 	$(".X3_2").click(function() {
 		$(".hint3_2").addClass("none");
 		$(".blur").addClass("none");
 		$(".main").removeClass("none");
 		$(".third").addClass("none");
 	});
-
+	$(".X3_2").click(function() {
+		$(".hint3_2_1").addClass("none");
+		$(".blur").addClass("none");
+		$(".main").removeClass("none");
+		$(".third").addClass("none");
+	});
+	$(".X3_3").click(function() {
+		$(".hint3_2_2").addClass("none");
+		$(".blur").addClass("none");
+		$(".main").removeClass("none");
+		$(".third").addClass("none");
+	});
 });
